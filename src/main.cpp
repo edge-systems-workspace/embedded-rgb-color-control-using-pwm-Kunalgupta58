@@ -47,4 +47,29 @@ void loop() {
     // TODO 8: Turn OFF red
     digitalWrite(RED_PIN, LOW);
     delay(1000);
+    // -------- ANALOG (PWM) MODE --------
+
+    // TODO 9: Set RED brightness
+    analogWrite(RED_PIN, 255);   // Full brightness
+    analogWrite(GREEN_PIN, 0);
+    analogWrite(BLUE_PIN, 0);
+    delay(1000);
+
+    // TODO 10: Set GREEN brightness
+    analogWrite(RED_PIN, 0);
+    analogWrite(GREEN_PIN, 255);
+    analogWrite(BLUE_PIN, 0);
+    delay(1000);
+
+    // TODO 11: Set BLUE brightness
+    analogWrite(RED_PIN, 0);
+    analogWrite(GREEN_PIN, 0);
+    analogWrite(BLUE_PIN, 255);
+    delay(1000);
+
+    // TODO 12: Mixed color (Purple example)
+    analogWrite(RED_PIN, 128);
+    analogWrite(GREEN_PIN, 0);
+    analogWrite(BLUE_PIN, 128);
+    delay(1000);
 }
