@@ -1,9 +1,9 @@
 #include <Arduino.h>
-/**
+ /**
  * @file main.cpp
  * @brief Embedded RGB LED Control (Digital + PWM)
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Kunal Gupta
+ * @date 2026-02-20
  *
  * @details
  * Controls RGB LED using digital ON/OFF
